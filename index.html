@@ -1,1 +1,316 @@
-# aung-business-os
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aung Business OS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="brand">
+        <div class="brand-logo">A</div>
+        <div>
+          <h2>Aung Business</h2>
+          <span>OS</span>
+        </div>
+      </div>
+
+      <nav class="menu">
+
+        <button class="menu-item active">
+          🏠
+          <span>Dashboard</span>
+        </button>
+
+        <button class="menu-item">
+          🛒
+          <span>POS / Sales</span>
+        </button>
+
+        <button class="menu-item">
+          📦
+          <span>Products & Stock</span>
+        </button>
+
+        <button class="menu-item">
+          💰
+          <span>Profit</span>
+        </button>
+
+        <button class="menu-item">
+          👥
+          <span>Customers</span>
+        </button>
+
+        <button class="menu-item">
+          💳
+          <span>Debt / Credit</span>
+        </button>
+
+        <button class="menu-item">
+          📊
+          <span>Reports</span>
+        </button>
+
+        <button class="menu-item ai-menu">
+          🤖
+          <span>AI Business Manager</span>
+        </button>
+
+      </nav>
+
+      <div class="sidebar-bottom">
+        <p>Aung Business OS</p>
+        <small>Version 1.0</small>
+      </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <!-- HEADER -->
+      <header class="header">
+
+        <div>
+          <h1>Dashboard</h1>
+          <p>Welcome to Aung Business OS</p>
+        </div>
+
+        <div class="header-actions">
+          <button class="notification">🔔</button>
+
+          <div class="profile">
+            <div class="profile-avatar">A</div>
+            <div>
+              <strong>Business Owner</strong>
+              <small>Administrator</small>
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+
+      <!-- STATS -->
+      <section class="stats">
+
+        <div class="stat-card">
+          <div class="stat-icon">💰</div>
+
+          <div>
+            <span>Today's Sales</span>
+            <h2>0 Ks</h2>
+            <small>Today</small>
+          </div>
+        </div>
+
+
+        <div class="stat-card">
+          <div class="stat-icon">📈</div>
+
+          <div>
+            <span>Today's Profit</span>
+            <h2>0 Ks</h2>
+            <small>Today</small>
+          </div>
+        </div>
+
+
+        <div class="stat-card">
+          <div class="stat-icon">📦</div>
+
+          <div>
+            <span>Total Products</span>
+            <h2>0</h2>
+            <small>Products</small>
+          </div>
+        </div>
+
+
+        <div class="stat-card">
+          <div class="stat-icon warning">⚠️</div>
+
+          <div>
+            <span>Low Stock</span>
+            <h2>0</h2>
+            <small>Need attention</small>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- CONTENT GRID -->
+      <section class="dashboard-grid">
+
+        <!-- SALES OVERVIEW -->
+        <div class="panel sales-panel">
+
+          <div class="panel-header">
+            <div>
+              <h2>Sales Overview</h2>
+              <p>Track your business performance</p>
+            </div>
+
+            <select>
+              <option>Last 7 Days</option>
+              <option>Last 30 Days</option>
+              <option>This Year</option>
+            </select>
+          </div>
+
+          <div class="chart-placeholder">
+
+            <div class="chart-message">
+              <div>📊</div>
+              <strong>No sales data yet</strong>
+              <p>Start making sales to see your performance here.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- QUICK ACTIONS -->
+        <div class="panel">
+
+          <div class="panel-header">
+            <div>
+              <h2>Quick Actions</h2>
+              <p>Manage your business</p>
+            </div>
+          </div>
+
+          <div class="quick-actions">
+
+            <button>
+              <span>🛒</span>
+              <div>
+                <strong>New Sale</strong>
+                <small>Create invoice</small>
+              </div>
+            </button>
+
+            <button>
+              <span>📦</span>
+              <div>
+                <strong>Add Product</strong>
+                <small>Add new inventory</small>
+              </div>
+            </button>
+
+            <button>
+              <span>👤</span>
+              <div>
+                <strong>Add Customer</strong>
+                <small>Create customer</small>
+              </div>
+            </button>
+
+            <button>
+              <span>📊</span>
+              <div>
+                <strong>View Reports</strong>
+                <small>Business reports</small>
+              </div>
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- AI CARD -->
+      <section class="ai-card">
+
+        <div class="ai-icon">🤖</div>
+
+        <div class="ai-content">
+
+          <span>AI BUSINESS MANAGER</span>
+
+          <h2>Your intelligent business assistant</h2>
+
+          <p>
+            Get sales insights, pricing suggestions,
+            profit analysis and practical business advice.
+          </p>
+
+        </div>
+
+        <button class="ai-button">
+          Open AI Manager →
+        </button>
+
+      </section>
+
+
+      <!-- RECENT SALES -->
+      <section class="panel recent-panel">
+
+        <div class="panel-header">
+
+          <div>
+            <h2>Recent Sales</h2>
+            <p>Your latest transactions</p>
+          </div>
+
+          <button class="view-all">
+            View All →
+          </button>
+
+        </div>
+
+        <div class="empty-state">
+
+          <div>🛒</div>
+
+          <h3>No sales yet</h3>
+
+          <p>
+            Your recent sales transactions will appear here.
+          </p>
+
+          <button class="primary-button">
+            + Create First Sale
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- FOOTER -->
+      <footer>
+
+        <span>© 2026 Aung Business OS</span>
+
+        <span>
+          Business Management System
+        </span>
+
+      </footer>
+
+    </main>
+
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
